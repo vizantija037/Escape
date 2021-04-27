@@ -1,0 +1,733 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1400px;
+    height: auto;
+    position:absolute;
+    margin-left:-700px;
+    left: 50%;
+    background-color: white; 
+}
+
+.wraper-top {
+   
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color: black;
+    height: 620px;
+    background-image: url(Img/Image1.png);
+
+
+
+}
+.services {
+    width: 100%;
+    height: 1470px;
+    position: relative;
+    float: left;    
+    margin:0 auto;
+}
+.clients {
+    width: 100%;
+    height: 990px;
+    position: relative;
+    float: left;    
+    margin:0 auto;
+}
+.awesome-clients {
+    width: 100%;
+    height: 810px;
+    position: relative;
+    float: left;    
+    background-color: #fafafa;
+}
+.awesome-clients-title{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100px;
+    letter-spacing: -1px;
+    color: #222222;
+    text-align: center;
+    margin-top: 100px;
+
+    
+}
+
+#description-text-awesome{
+    font-size: 22px;
+    letter-spacing: -1px;
+    color: #777777;
+    text-align: center;
+    margin-top:0;
+ 
+}
+
+.awesome-clients-about {
+    width: 100%;
+    height: 315px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.black-circle1{
+    position: relative;
+    float: left;
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    background-color: #111111;
+    border: 7px solid #ffffff;
+    margin-left: 200px;
+
+}
+.black-circle2{
+
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    background-color: #111111;
+    border: 7px solid #ffffff;
+    margin-left: 15px;
+    margin-left: 40px;
+
+}
+
+.speak-box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 665px;
+    height: 176px;
+    background-image: url(Img/Speak-Box.png);
+    margin-left: 40px;
+}
+
+.speak-box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 664px;
+    height: 176px;
+    background-image: url(Img/Speak-Box-1.png);
+    margin-left: 270px;
+}
+
+.quote-block {
+    width: 500px;
+    height:176px;
+    position: relative;
+    float:left;
+    text-align: center;
+    margin-left: 20px;
+}
+
+/* ovde sam definitivno menao font-size. Ne uklapa mi se nikako sa slikom koja je data da se koristi... opet verovatno zbog fonta koji koristim */
+.first-quote{
+    font-size: 22px;
+    letter-spacing: -1px;
+    line-height: 28px;
+    color: #777777;
+    text-align: left;
+}
+/*isto font size*/
+.client-name-1 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #7690c5;
+    text-align: left;
+}
+
+.client-logos{
+    width:100%;
+    height:160px;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+.client-logos-holder {
+    margin-top:59px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 42px;
+
+}
+.client-logo1, .client-logo2, .client-logo3, .client-logo4{
+    width:auto;
+    height: auto;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    margin-right: 40px;
+    padding: 0;
+}
+
+.client-logo1 {
+    height: 30px !important; 
+}
+.team {
+    width: 100%;
+    height: 830px;
+    position: relative;
+    float: left;    
+    background-color: black;
+    margin:0 auto;
+}
+
+.team-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 80px;
+    flex-wrap: wrap;
+
+}
+
+.team-title{
+    text-align: center;
+    width: 100%;
+}
+.team-descript {
+
+    font-size: 22px;
+    letter-spacing: -1px;
+    color: #777777;
+    margin:0;
+}
+
+h4{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center; 
+}
+.member-position {
+    font-weight:normal;
+}
+.team-member {
+    width: 235px;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 40px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.team-icons-container{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-left: 20px;
+ }
+
+h1 .white-text {
+    color:#ffffff;
+}
+.team-description{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+h6 {
+    width: 620px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #ebebeb;
+    text-align: center;
+    line-height: 20px;
+    font-weight:normal;
+    margin: 0;
+}
+
+.contact {
+    width: 100%;
+    height: 640px;
+    position: relative;
+    float: left;    
+    background-color: #7690c5;
+    margin:0 auto;
+}
+
+.contact-info {
+    position: relative;
+    float: left;
+    width: 470px;
+    height:360px;
+    margin: 0;
+    padding: 0;
+    margin-left: 230px;
+    margin-top: 100px;
+
+}
+
+.contact-form {
+    position: relative;
+    float: left;
+    width: 470px;
+    height:360px;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+}
+.footer {
+    float: left;
+    width: 100%;
+    height: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+}
+
+.submit{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 10px;
+
+}
+#submit{
+    width: 100px;
+    height: 40px;
+    margin-left: 130px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    color:#777777;
+    font-size: 16px;
+    -webkit-transition: all 0.35s ease;
+}
+#submit:hover{
+    background-color: #7690c5;
+    color: white;
+    cursor: pointer;
+}
+
+.message {
+    position:relative;
+    float: left;
+}
+
+.contact-descript {
+    width: 100%;
+    color: white;
+    margin: 0;
+    padding: 0; 
+    line-height: 20px;
+}
+
+.contact-icon{
+    float: left;
+    width: 50%;
+    height: 30px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+h7{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 29px;
+    vertical-align: middle;
+    margin: 0; 
+    margin-left: 10px;
+}
+.header{
+    width: 100%;
+    height: 29px;
+    position: static;
+    float: left;
+    margin-top: 45px;
+
+ 
+}
+.logo {
+    width:140px;
+    height:100%;
+    position: relative;
+    float: left;
+    margin-left:230px;
+    background-image:url(Img/Escape.png);
+    background-repeat:no-repeat;
+}
+
+.menu {
+    width:380px;
+    height:100%;
+    position: relative;
+    float: left;
+    margin-left:420px;
+    font-size: 20px;
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+
+li {
+    display: inline-block;
+    float: left;
+    color: white;
+    margin-right: 19px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    
+}
+li a{
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all 0.35s ease;
+
+}
+
+li a:hover{
+
+    color: gray;
+    text-decoration:overline;
+    
+    
+}
+
+.smallText {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 32px;
+    font-size: 32px;
+    /*letter-spacing: -1px;*/
+    color: #ffffff;
+    text-align: center;
+/*smanjujem marginu u odnosu na PSD fajl jer pretpostavljam da mi zbog drugacijeg fonta nije vizuelno isto*/
+    margin-top:130px;
+    font-weight: lighter;
+}
+
+.capsText {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 66px;
+    font-size: 66px;
+    letter-spacing: -2px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.learnMore {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 65px;
+    margin-top:80px;
+
+}
+.button-learnMore {
+    width: 240px;
+    height: 61px;
+    position:relative;
+    float: left;
+    margin-left: 580px;
+    border: 3px solid white;
+    border-radius: 6px;
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 61px;
+    display: block;
+    -webkit-transition: all 0.5s ease;
+
+}
+.button-learnMore:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+
+
+.webDevelopment-container {
+    width: 100%;
+    height: 440px;
+    position: relative;
+    float: left;    
+    background-color: white;
+    margin:0 auto;
+}
+.webDevelopment-text {
+    width: 575px;
+    height: 240px;
+    position: relative;
+    float: left;
+    margin:0 auto;
+    margin-top: 100px;
+    margin-left: 270px;
+}
+.webDevelopment-img {
+    width: 285px;
+    height: 240px;
+    position: relative;
+    float: right;    
+    margin:0 auto;
+    margin-top: 130px;
+    margin-right: 220px;
+    background-image:url(Img/Compound-Path1.png);
+    background-repeat:no-repeat;
+ 
+
+}
+.branding-container {
+    width: 100%;
+    height: 440px;
+    position: relative;
+    float: left;    
+    background-color: #fafafa;
+    margin:0 auto;
+}
+.branding-img {
+    width: 310px;
+    height: 240px;
+    position: relative;
+    float: left;    
+    margin:0 auto;
+    margin-top: 100px;
+    margin-left: 270px;
+    background-image:url(Img/Users-Icon.png);
+    background-repeat:no-repeat;
+}
+.branding-text {
+    width: 550px;
+    height: 240px;
+    position: relative;
+    float: right;    
+    margin:0 auto;
+    margin-top: 100px;
+    margin-right: 270px;
+}
+
+.skills {
+    width: 100%;
+    height: 590px;
+    position: relative;
+    float: left;    
+    margin:0 auto;
+}
+.skills-column1{
+    width: 430px;
+    height: 390px;
+    position: relative;
+    float: left;    
+    margin-left: 270px;
+    margin-top: 100px;
+}
+.skills-column2{
+    width: 430px;
+    height: 390px;
+    position: relative;
+    float: left;    
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.skills-container{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+
+.skill-icon{
+    width:72px;
+    height: 72px;
+    position: relative;
+    float: left;
+    background-repeat: no-repeat;
+
+}
+
+.skill-text{
+    width:300px;
+    height: 100%;
+    position: relative;
+    float: left;
+    margin-left: 15px;
+}
+
+h3{
+    font-size: 22px;
+    letter-spacing: -1px;
+    color: #222222;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#BI {
+    background-image: url(Img/icon-BI.png);
+}
+#MAD {
+    background-image: url(Img/icon-MAD.png);
+}
+#uiUx {
+    background-image: url(Img/icon-uiUx.png);
+}
+#web {
+    background-image: url(Img/icon-web.png);
+}
+#animations {
+    background-image: url(Img/icon-animations.png);
+}
+#photography {
+    background-image: url(Img/icon-photography.png);
+}
+
+.skill-text-p {
+    font-size: 16px;/* I ovde smanjujem malo font jer je drugaciji pa prelama jos jedan red*/
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #777777;
+    margin-top: 0;
+}
+
+h1{
+    font-size: 60px;
+    letter-spacing: -1px;
+    line-height: 75px;
+    color: #222222;
+    font-weight: 300;
+    margin:0;
+    padding: 0;
+}
+.bold {
+    font-weight: bold;
+}
+.branding-heading-align{
+    text-align: right;
+}
+
+.description-text {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #777777;
+
+}
+
+.motion{
+    -webkit-transition: all 1s ease;
+}
+
+#goToTop {
+    width: 50px;
+    height:50px;
+    position:fixed;
+    margin-left:1300px;
+    top:800px;
+    border-radius: 50%;
+    background-image: url(Img/icon-go-to-top.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+#goToTop:hover{
+    cursor: pointer;
+    top:793px;
+   
+}
+
+.margin-holder {
+    width: 100%;
+    height: 20px;
+    
+}
+
+.icon-link:hover{
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 50%;
+
+}
+
+.name-form {
+    position: relative;
+    float: right;
+    width: 455px;
+    height: 50px;
+    border:none;
+    margin-bottom: 25px;
+
+}
+
+#nameInput{
+    width: 430px;
+    height: 46px;
+    border:1px #cccccc solid;
+    border-radius: 2px;
+    padding-left: 15px;
+    
+   
+}
+.message-form {
+    position: relative;
+    float: right;
+    width: 455px;
+    height: 209px;
+    border:none;
+
+}
+#messageInput{
+    width: 430px;
+    height: 206px;
+    border:1px #cccccc solid;
+    border-radius: 2px;
+    padding-left: 15px;
+}
+#messageInput::placeholder{
+    position: absolute;
+    left:15px;
+    top:15px;
+    
+}
+
+
