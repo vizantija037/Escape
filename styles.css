@@ -312,18 +312,19 @@ h6 {
     height: 40px;
     vertical-align: middle;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
 #submit{
     width: 100px;
     height: 40px;
     margin-left: 130px;
+    font-family: Lato;
     background-color: white;
     border: 1px solid #cccccc;
     border-radius: 2px;
     color:#777777;
-    font-size: 16px;
+    font-size: 18px;
     -webkit-transition: all 0.35s ease;
 }
 #submit:hover{
@@ -705,6 +706,8 @@ h1{
     border:1px #cccccc solid;
     border-radius: 2px;
     padding-left: 15px;
+    font-family: Lato;
+    font-size: 16px;
     
    
 }
@@ -714,20 +717,25 @@ h1{
     width: 455px;
     height: 209px;
     border:none;
-
+ 
 }
+
 #messageInput{
     width: 430px;
     height: 206px;
     border:1px #cccccc solid;
     border-radius: 2px;
     padding-left: 15px;
+    padding-top: 15px;
+    font-family: Lato;
+    font-size: 16px;
 }
+
 #messageInput::placeholder{
     position: absolute;
     left:15px;
     top:15px;
-    
 }
+
 
 
